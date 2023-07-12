@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stage_of_work {
+    width: 100%;
+    background-color: #3E414E;
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 80px;
+    color: #fff;
+}
+
+.stage_of_work h1 {
+    text-align: center;
+    font-family: ninoMtavruli;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.stage_of_work_text {
+    width: 800px;
+  
+}
+
+.stage_of_work_text p {
+    font-family: ninoMtavruli;
+    font-size: 30px;
+}
+
+.stage_of_work_img {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.stage_of_work_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
