@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ninoMtavruli;
+    src: url('../../fonts/bpg_nino_mtavruli_normal.ttf');
+}
+
+.cards {
+    width: 100%;
+    background-color: #7E8292;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    background: url('../img/cardback.svg');
+    width: 600px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.card h1 {
+    color: #fff;
+    font-family: ninoMtavruli;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.customer_schema {
+    background-color: #7E8292;
+    margin-top: -5px;   
+    padding: 100px 30px 100px 30px;
+}
+
+.customer_schema h1 {
+    font-family: ninoMtavruli;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}

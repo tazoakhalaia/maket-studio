@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: ninoMtavruli;
+    src: url('../../fonts/bpg_nino_mtavruli_normal.ttf');
+}
+
+footer {
+    position: relative;
+    background-color: #7E8292;
+    margin-top: -5px;
+    padding: 100px 0 100px 0;
+}
+
+.contact {
+    position: absolute;
+    right: 10px;
+}
+
+.contact h1 {
+    text-align: end;
+    font-size: 20px;
+    color: #fff;
+    font-family: ninoMtavruli;
+}
