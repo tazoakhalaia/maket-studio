@@ -50,3 +50,22 @@
     font-weight: 200;
     margin-top: 10px;
 }
+
+.header_menu {
+    background-color: #7E8292;
+    width: 100%;
+}
+
+.header_menu_list {
+    width: 100%;
+    padding: 50px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: ninoMtavruli;
+}

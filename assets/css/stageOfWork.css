@@ -81,3 +81,22 @@
     text-align: center;
     line-height: 2;
 }
+
+.header_menu {
+    background-color: #3E414E;
+    width: 100%;
+}
+
+.header_menu_list {
+    width: 100%;
+    padding: 50px 20px 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: ninoMtavruli;
+}
