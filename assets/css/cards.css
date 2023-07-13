@@ -12,18 +12,18 @@
 .cards {
     width: 100%;
     background-color: #7E8292;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-top: -5px;
     padding-top: 180px;
     padding-bottom: 100px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .card {
     position: relative;
     background: url('../img/cardback.svg');
-    width: 600px;
+    width: 30%;
     height: 600px;
     display: flex;
     align-items: center;

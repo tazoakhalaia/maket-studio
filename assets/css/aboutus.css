@@ -13,6 +13,7 @@
     padding-top: 150px;
     padding-bottom: 100px;
     margin-top: -5px;
+    min-height: 100vh;
 }
 
 .about_us h1{

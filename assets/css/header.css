@@ -11,6 +11,7 @@
 
 header {
     position: relative;
+    width: 100%;
 }
 
 .mainimg img {
@@ -20,26 +21,29 @@ header {
 }
 
 .header_menu {
-    position: absolute;
-    width: 60%;
-    top: 80px;
-    left: 100px;
+    background-color: #f8f9fb;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.header_menu_list {
+    width: 80%;
+    margin-top: 20px;
 }
 
 .header_menu a {
     text-decoration: none;
     color: #000000;
-    font-size: 25px;
-    margin-left: 150px;
+    font-size: 18px;
+    margin-left: 100px;
     font-family: ninoMtavruli;
 }
 
 .maket_studio_logo {
     position: absolute;
     top: 30%;
-    width: 700px;
+    width: 500px;
     height: 250px;
 }
 
@@ -53,242 +57,12 @@ header {
 }
 
 .logo_text h1 {
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'El Messiri', sans-serif;
 }
 
 .logo_text h3 {
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'El Messiri', sans-serif;
-    margin-top: -30px;
-}
-
-
-@media (min-width: 1200px) and (max-width: 1600px) {
-    header {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .mainimg img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .header_menu {
-        position: absolute;
-        width: 60%;
-        top: 80px;
-        left: 100px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .header_menu a {
-        text-decoration: none;
-        color: #000000;
-        font-size: 12px;
-        margin-left: 150px;
-        font-family: ninoMtavruli;
-    }
-    
-    .maket_studio_logo {
-        position: absolute;
-        top: 30%;
-        left: -100px;
-        width: 700px;
-        height: 250px;
-    }
-    
-    .maket_studio_logo img {
-        width: 80px;
-        height: 80px;
-    }
-    
-    .logo_text {
-        text-align: center;
-    }
-    
-    .logo_text h1 {
-        font-size: 40px;
-        font-family: 'El Messiri', sans-serif;
-    }
-    
-    .logo_text h3 {
-        font-size: 15px;
-        font-family: 'El Messiri', sans-serif;
-        margin-top: 5px;
-    }
-}
- 
-
-@media (min-width: 900px) and (max-width: 1200px) {
-    header {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .mainimg img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .header_menu {
-        position: absolute;
-        width: 60%;
-        top: 80px;
-        left: 100px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .header_menu a {
-        text-decoration: none;
-        color: #000000;
-        font-size: 10px;
-        margin-left: 150px;
-        font-family: ninoMtavruli;
-    }
-    
-    .maket_studio_logo {
-        position: absolute;
-        top: 30%;
-        left: -100px;
-        width: 700px;
-        height: 250px;
-    }
-    
-    .maket_studio_logo img {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .logo_text {
-        text-align: center;
-    }
-    
-    .logo_text h1 {
-        font-size: 40px;
-        font-family: 'El Messiri', sans-serif;
-    }
-    
-    .logo_text h3 {
-        font-size: 15px;
-        font-family: 'El Messiri', sans-serif;
-        margin-top: 5px;
-    }
-}
-
-@media (min-width: 700px) and (max-width: 900px) {
-    header {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .mainimg img {
-        width: 100%;
-        height: 100%;
-    }
-    
-    .header_menu {
-        position: absolute;
-        width: 60%;
-        top: 80px;
-        left: 10px;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .header_menu a {
-        text-decoration: none;
-        color: #000000;
-        font-size: 5px;
-        margin-left: 150px;
-        font-family: ninoMtavruli;
-    }
-    
-    .maket_studio_logo {
-        position: absolute;
-        top: 30%;
-        left: -140px;
-        width: 700px;
-        height: 250px;
-    }
-    
-    .maket_studio_logo img {
-        width: 25px;
-        height: 25px;
-    }
-    
-    .logo_text {
-        text-align: center;
-    }
-    
-    .logo_text h1 {
-        font-size: 20px;
-        font-family: 'El Messiri', sans-serif;
-    }
-    
-    .logo_text h3 {
-        font-size: 8px;
-        font-family: 'El Messiri', sans-serif;
-        margin-top: 5px;
-    }
-}
-
-@media (min-width: 500px) and (max-width: 700px) {
-    header {
-        position: relative;
-        width: 100%;
-        height: 100%;
-    }
-    
-    .mainimg img {
-        width: 100%;
-        height: 100%;
-    }
-    .header_menu {
-        position: absolute;
-        width: 60%;
-        top: 80px;
-        left: -20px;
-    }
-    
-    .header_menu a {
-        text-decoration: none;
-        color: #000000;
-        font-size: 5px;
-        font-family: ninoMtavruli;
-    }
-    
-    .maket_studio_logo {
-        position: absolute;
-        top: 35%;
-        left: -200px;
-        width: 700px;
-        height: 250px;
-    }
-    
-    .maket_studio_logo img {
-        width: 10px;
-        height: 10px;
-    }
-    
-    .logo_text {
-        text-align: center;
-    }
-    
-    .logo_text h1 {
-        font-size: 20px;
-        font-family: 'El Messiri', sans-serif;
-    }
-    
-    .logo_text h3 {
-        font-size: 5px;
-        font-family: 'El Messiri', sans-serif;
-        margin-top: 5px;
-    }
+    margin-top: -20px;
 }
