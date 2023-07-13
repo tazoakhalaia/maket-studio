@@ -44,7 +44,7 @@
 .customer_schema {
     background-color: #7E8292;
     margin-top: -5px;   
-    padding: 100px 30px 100px 30px;
+    padding: 200px 30px 200px 30px;
 }
 
 .customer_schema h1 {
@@ -52,5 +52,11 @@
     font-size: 20px;
     color: #fff;
     text-align: center;
-    margin-bottom: 50px;
+    width: 70%;
+    font-weight: 200;
+    margin: auto;
+}
+
+.customer_schema img {
+    margin-top: 80px;
 }
