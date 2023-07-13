@@ -9,6 +9,11 @@
     src: url('../../fonts/bpg_nino_mtavruli_normal.ttf');
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 header {
     position: relative;
     width: 100%;
