@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+
 @font-face {
     font-family: ninoMtavruli;
     src: url('../../fonts/bpg_nino_mtavruli_normal.ttf');
@@ -41,6 +48,7 @@
 .stage_of_work_text p {
     font-family: ninoMtavruli;
     font-size: 20px;
+    line-height: 2.2;
 }
 
 .stage_of_work_img {
